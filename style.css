@@ -1,8 +1,14 @@
 /* your styles will go here!! */
-.welcome {
+.topbanner {
     background-color: #FFEDD8;
     box-sizing: border-box;
     padding: 40px;
     text-align: center;
     width: 100%;
   }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
