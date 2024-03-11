@@ -1,12 +1,20 @@
 /* your styles will go here!! */
+html, body {
+  margin: 0;
+  padding: 0;
+}
 #banner {
-    background-color: #FFEDD8;
-    height: 20px;
-    width: 100%;
-    padding: 40px;
-  }
+  background-color: #FFEDD8;
+  height: 120px;
+  width: 100%;
+  padding: 40px;
+}
+#banner .content {
+  text-align: center;
+  padding-right: 50px;
+}
 #banner .content img {
-    height: 5px;
-    width: 7.6px;
-    margin; 0 auto;
+  height: 80px;
+  width: auto;
+  margin: 0 auto;
 }
