@@ -105,3 +105,9 @@ html, body {
   width: 100%; /* Ensure the image fills the container */
   height: auto; /* Maintain aspect ratio */
 }
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
