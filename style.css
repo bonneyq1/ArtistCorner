@@ -10,6 +10,7 @@ html, body {
   max-width: 400px; 
   margin: 0 auto; 
   padding: 0 20px; 
+}
 #banner {
   background-color: #FFEDD8;
   border-bottom: 1px solid black;
@@ -87,7 +88,6 @@ html, body {
   height: 100%; /* Ensure the image fills the container */
   object-fit: cover; /* Maintain aspect ratio and cover container */
 }
-
 .textpost-content {
   border: 1px solid black; /* Black border */
   flex-grow: 1; /* Allow the content to fill the remaining space */
