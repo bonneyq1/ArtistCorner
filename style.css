@@ -35,31 +35,33 @@ html, body {
   font-size: 20px;
 }
 .post {
-  align-content: flex-start;
   display: flex;
+  align-items: flex-start; /* Align items flat to the top */
+  border: 2px solid black; /* Black border */
   padding: 20px; /* Padding inside the post */
   margin-bottom: 20px; /* Space between posts */
 }
-.post-header {
-  display: flex;
- /* Align items vertically */
+
+.profile-wrapper {
+  position: relative;
+}
+
+.username {
+  position: absolute;
+  top: -5px; /* 5px above the profile image */
+  left: 0;
 }
 
 .profile-image {
-  width: 10%; /* 1/10 of the size of the main post square */
-  margin-top: 30px; /* Space between profile image and username */
+  width: 50px; /* Fixed width for the profile image */
+  margin-top: 20px; /* Adjust as needed */
 }
 
 .profile-image img {
   width: 100%; /* Ensure the image fills the container */
 }
 
-.username {
-  font-weight: bold; /* Make the username bold */
-}
-
 .post-content {
-  border: 2px solid black; /* Black border */
-  padding-left: 8px;
-  flex: 1; /* Allow the content to fill the remaining space */
+  flex-grow: 1; /* Allow the content to fill the remaining space */
+  margin-left: 5px; /* 5px distance between profile image and text content */
 }
