@@ -54,11 +54,14 @@ html, body {
 
 .profile-image {
   width: 50px; /* Fixed width for the profile image */
+  height: 50px; /* Set the height to match the width */
   margin-top: 20px; /* Adjust as needed */
 }
 
 .profile-image img {
   width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
 }
 
 .post-content {
