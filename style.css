@@ -8,10 +8,10 @@ html, body {
   height: 120px;
   width: 100%;
   padding: 40px;
+  margin-bottom: 20px;
 }
 #banner .content {
   text-align: center;
-  padding-right: 50px;
 }
 #banner .content img {
   height: 80px;
@@ -33,4 +33,9 @@ html, body {
   padding: 10px;
   font-family: 'Josefin Slab', sans-serif;
   font-size: 20px;
+}
+#post-square {
+  border: 2px solid #ccc; 
+    padding: 20px; 
+    margin-bottom: 20px; 
 }

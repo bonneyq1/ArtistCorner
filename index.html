@@ -16,4 +16,21 @@
                 <a href="#">YOU</a>
             </div>
         </div>
+        <!-- Image Post Form -->
+    <div class="post-square">
+        <form action="upload_image.php" method="post" enctype="multipart/form-data">
+            <h2>Upload Image Post</h2>
+            <input type="file" name="image" accept="image/*">
+            <button type="submit">Upload Image</button>
+        </form>
+    </div>
+
+    <!-- Text Post Form -->
+    <div class="post-square">
+        <form action="upload_text.php" method="post">
+            <h2>Submit Text Post</h2>
+            <textarea name="text" rows="4" cols="50" placeholder="Enter your text here"></textarea><br>
+            <button type="submit">Submit Text</button>
+        </form>
+    </div>
     </body>
