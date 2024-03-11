@@ -5,7 +5,7 @@
     width: 100%;
     padding: 40px;
   }
-#banner .content img[src*='Logo'] {
+#banner .content img {
     height: 5px;
     width: 7.6px;
     margin; 0 auto;
