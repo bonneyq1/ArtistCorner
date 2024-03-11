@@ -7,10 +7,9 @@ html, body {
   box-sizing: border-box;
 }
 .container {
-  max-width: 400px; /* Set the maximum width */
-  margin: 0 auto; /* Center the container */
-  padding: 0 20px; /* Optional: Add padding for spacing */
-}
+  max-width: 400px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
 #banner {
   background-color: #FFEDD8;
   border-bottom: 1px solid black;
@@ -80,7 +79,7 @@ html, body {
   border: 1px solid black;
   height: 50px;
   width: 50px; /* Fixed width for the profile image */
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 .profile-image img {
