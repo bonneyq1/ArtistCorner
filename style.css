@@ -34,8 +34,30 @@ html, body {
   font-family: 'Josefin Slab', sans-serif;
   font-size: 20px;
 }
-.post-square {
-  border: 2px solid #ccc; 
-    padding: 20px; 
-    margin-bottom: 20px; 
+.post {
+  display: flex;
+  border: 2px solid black; /* Black border */
+  padding: 20px; /* Padding inside the post */
+  margin-bottom: 20px; /* Space between posts */
+}
+.post-header {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.profile-image {
+  width: 10%; /* 1/10 of the size of the main post square */
+  margin-right: 10px; /* Space between profile image and username */
+}
+
+.profile-image img {
+  width: 100%; /* Ensure the image fills the container */
+}
+
+.username {
+  font-weight: bold; /* Make the username bold */
+}
+
+.post-content {
+  flex: 1; /* Allow the content to fill the remaining space */
 }

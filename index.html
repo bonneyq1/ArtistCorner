@@ -19,25 +19,21 @@
                 <a href="#">YOU</a>
             </div>
         </div>
-        <!-- Image Post Form -->
-    <div class="post-square">
-        <form action="upload_image.php" method="post" enctype="multipart/form-data">
-            <h2>yourusername</h2>
-            <input type="file" name="image" accept="image/*">
-            <button type="submit">Upload Image</button>
-        </form>
-    <!-- Display uploaded image -->
-    <?php if(isset($_GET['image_url'])): ?>
-        <img src="<?php echo $_GET['image_url']; ?>" alt="Uploaded Image">
-    <?php endif; ?>
     </div>
-
-    <!-- Text Post Form -->
-    <div class="post-square">
-        <form action="upload_text.php" method="post">
-            <h2>yourusername</h2>
-            <textarea name="text" rows="4" cols="50" placeholder="Enter your text here"></textarea><br>
-            <button type="submit">Submit Text</button>
-        </form>
+    <div class="post">
+        <div class="post-header">
+            <div class="profile-image">
+                <img src="profile-image.jpg" alt="Profile Image">
+            </div>
+            <div class="username">
+                <span>@yourusername</span>
+            </div>
+        </div>
+        <div class="post-content">
+            <!-- Text content goes here -->
+            <h1>Heading</h1>
+            <h2>subheading</h2>
+            <p>Your blog post, here you can share you art process, any new discoveries you have had, any new life updates, or whatever the hell you want!.</p>
+        </div>
     </div>
     </body>
