@@ -3,6 +3,11 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 960px; /* Set the maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Optional: Add padding for spacing */
+}
 #banner {
   background-color: #FFEDD8;
   height: 120px;
@@ -35,11 +40,12 @@ html, body {
   font-size: 20px;
 }
 .drop-down {
+  display: flex;
   text-decoration: none;
-  color: black;
+  color: gray;
   padding: 10px;
-  margin-top: 75 px;
-  margin-bottom: 35px;
+  margin-top: 40px;
+  margin-left: 10px;
   font-family: 'Josefin Slab', sans-serif;
 }
 .post {
