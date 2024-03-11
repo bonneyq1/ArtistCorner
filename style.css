@@ -65,15 +65,20 @@ html, body {
   object-fit: cover; /* Maintain aspect ratio and cover container */
 }
 
-.post-content {
+.textpost-content {
   border: 2px solid black; /* Black border */
   flex-grow: 1; /* Allow the content to fill the remaining space */
   margin-left: 5px; /* 5px distance between profile image and text content */
   margin-top: 20px;
   padding-left: 20px;
   padding-bottom: 30px;
+  padding-right: 20px;
 }
 .post-content img {
+  border: 2px solid black; /* Black border */
+  flex-grow: 1; /* Allow the content to fill the remaining space */
+  margin-left: 5px; /* 5px distance between profile image and text content */
+  margin-top: 20px;
   width: 100%; /* Ensure the image fills the container */
   height: auto; /* Maintain aspect ratio */
 }
