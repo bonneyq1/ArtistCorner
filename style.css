@@ -45,7 +45,7 @@ html, body {
   text-decoration: none;
   color: gray;
   padding: 10px;
-  margin-top: 85px;
+  margin-top: 30px;
   margin-left: 10px;
   margin-bottom: 20px;
   font-family: 'Josefin Slab', sans-serif;
@@ -56,7 +56,7 @@ html, body {
   max-width: 1500px;
   align-items: flex-start; /* Align items flat to the top */
   padding: 20px; /* Padding inside the post */
-  margin-bottom: 20px; /* Space between posts */
+  margin-bottom: 30px; /* Space between posts */
   font-family: 'Josefin Slab', sans-serif;
 }
 
@@ -101,8 +101,10 @@ html, body {
   height: auto; /* Maintain aspect ratio */
 }
 .footer {
-  background-color: black;
-  color: black;
-  padding: 20px;
+  background-color: gray;
+  color: gray;
+  border-top: 1px solid black;
+  padding: 60px;
+  margin-top: 80px;
   text-align: center;
 }
